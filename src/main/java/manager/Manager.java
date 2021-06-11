@@ -14,7 +14,6 @@ public class Manager {
         for (File file : markdownFiles) {
             FileReader fileReader = new FileReader(file.getPath());
             String text = fileReader.read();
-            System.out.println(text);
         }
     }
 

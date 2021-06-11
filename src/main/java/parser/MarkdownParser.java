@@ -1,5 +1,7 @@
 package parser;
 
+import java.util.UUID;
+
 public class MarkdownParser {
     private static final int CODE_BLOCK_DELIMITER_MIN_COUNT_WHEN_CODE_BLOCK_EXISTS = 2;
     private static final String CODE_BLOCK_DELIMITER = "```";
